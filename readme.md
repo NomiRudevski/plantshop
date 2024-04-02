@@ -1,0 +1,1 @@
+# making a website only using chatgpt as an exercise

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tropical Plant Store</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #ffffff;
+            padding-top: 70px;
+            /* Adjusted padding for the fixed navbar */
+        }
+
+        .navbar {
+            background-color: #3f623f;
+            /* Dark forest green */
+        }
+
+        .card {
+            background-color: #fff;
+            border: solid 1px #ffc0cb;
+            height: 550px;
+        }
+
+        .card-qa {
+            background-color: #fff;
+            border: solid 1px #ffc0cb;
+        }
+
+        .card-title {
+            color: #006400;
+            /* Dark forest green */
+        }
+
+        .btn-primary {
+            background-color: #ffc0cb;
+            /* Light pink */
+            border-color: #ffc0cb;
+            /* Light pink */
+        }
+
+        .btn-primary:hover {
+            background-color: #d287ac;
+            /* Lighter pink */
+            border-color: #d287ac;
+            /* Lighter pink */
+        }
+
+        .footer {
+            background-color: #3f623f;
+            /* Dark forest green */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+        }
+
+        #about {
+            background-color: #f8f9fa;
+            /* Light gray background */
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+
+        #about h2 {
+            color: #006400;
+            /* Dark forest green */
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        #about p {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Tropical Plant Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#shop">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#qanda">Q&A</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2 class="mb-4">About Us</h2>
+                    <p class="lead">Welcome to Tropical Plant Store, where we offer high-quality tropical plants to
+                        enhance your living spaces. Our journey began with a passion for nature, evolving into a
+                        business dedicated to rare and exotic plants. Each plant is carefully curated from sustainable
+                        sources. Whether for your home or as a gift, we're here to help. Thank you for joining our green
+                        journey!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Shop Section -->
+    <section id="shop" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Shop</h2>
+            <div class="row">
+                <!-- Monstera deliciosa 'Variegata' -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://cdn.shopify.com/s/files/1/0013/3529/6118/files/variegated-monstera-care.webp?9428942699530649315"
+                            class="card-img-top" alt="Monstera deliciosa 'Variegata'">
+                        <div class="card-body">
+                            <h5 class="card-title">Monstera deliciosa 'Variegata'</h5>
+                            <p class="card-text">Large, glossy, variegated leaves with iconic splits.</p>
+                            <p class="text-muted">$100 - $200</p>
+                            <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Calathea ornata 'Pinstripe' -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://cb2.scene7.com/is/image/CB2/CalatheaOrnataWhtPot6inSHF22/$web_pdp_main_carousel_zoom_xs$/240215084901/live-calathea-ornata-pinstripe-plant-6-in-white-ceramic-pot.jpg"
+                            class="card-img-top" alt="Calathea ornata 'Pinstripe'">
+                        <div class="card-body">
+                            <h5 class="card-title">Calathea ornata 'Pinstripe Plant'</h5>
+                            <p class="card-text">Elegant pink stripes against dark green leaves.</p>
+                            <p class="text-muted">$20 - $40</p>
+                            <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Dieffenbachia 'Tropic Snow' -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://balinursery.com/cdn/shop/products/MTR1553_2400x.jpg?v=1638190635"
+                            class="card-img-top" alt="Dieffenbachia 'Tropic Snow'">
+                        <div class="card-body">
+                            <h5 class="card-title">Dieffenbachia 'Tropic Snow'</h5>
+                            <p class="card-text">Broad, variegated leaves with splashes of cream and green.</p>
+                            <p class="text-muted">$15 - $30</p>
+                            <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Syngonium podophyllum 'White Butterfly' -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://www.livelyroot.com/cdn/shop/articles/1e99b4ab05ef--coc_730x_1d8355b7-475d-40b5-bde7-01a28210f259.webp?v=1701167829&width=1200"
+                            class="card-img-top" alt="Syngonium podophyllum 'White Butterfly'">
+                        <div class="card-body">
+                            <h5 class="card-title">Syngonium podophyllum 'White Butterfly'</h5>
+                            <p class="card-text">Arrowhead-shaped leaves with creamy-white variegation.</p>
+                            <p class="text-muted">$10 - $20</p>
+                            <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Dracaena fragrans 'Massangeana' -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://finecity.ae/cdn/shop/products/77.3DracaenaMassangeana_622x622.jpg?v=1629284231"
+                            class="card-img-top" alt="Dracaena fragrans 'Massangeana'">
+                        <div class="card-body">
+                            <h5 class="card-title">Dracaena fragrans 'Massangeana'</h5>
+                            <p class="card-text">Striped leaves in shades of green and yellow.</p>
+                            <p class="text-muted">$30 - $50</p>
+                            <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Aglaonema 'Silver Bay' -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://www.almadaratshop.com/wp-content/uploads/2020/09/aglaonema-silver-bay-bd375c-1.jpg"
+                            class="card-img-top" alt="Aglaonema 'Silver Bay'">
+                        <div class="card-body">
+                            <h5 class="card-title">Aglaonema 'Silver Bay' Evergreen</h5>
+                            <p class="card-text">Lush, silver-green leaves with dark green veins.</p>
+                            <p class="text-muted">$25 - $40</p>
+                            <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Philodendron hederaceum 'Brazil' -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://foliagedreams.com/cdn/shop/products/philodendron-hederaceum-brasil-plant-m-topf-weiss-41929437708555.jpg?v=1674053624&width=720"
+                            class="card-img-top" alt="Philodendron hederaceum 'Brazil'">
+                        <div class="card-body">
+                            <h5 class="card-title">Philodendron hederaceum 'Brazil'</h5>
+                            <p class="card-text">Heart-shaped leaves with vibrant lime green and yellow variegation.</p>
+                            <p class="text-muted">$15 - $25</p>
+                            <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ficus elastica 'Tineke' -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://125274468.cdn6.editmysite.com/uploads/1/2/5/2/125274468/s220733784862813675_p229_i11_w3924.jpeg?width=2560&optimize=medium"
+                            class="card-img-top" alt="Ficus elastica 'Tineke'">
+                        <div class="card-body">
+                            <h5 class="card-title">Ficus elastica 'Tineke Burgundy'</h5>
+                            <p class="card-text">Oval-shaped leaves with creamy-white and green variegation.</p>
+                            <p class="text-muted">$30 - $50</p>
+                            <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Epipremnum aureum 'Marble Queen' -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://hortology.co.uk/cdn/shop/products/Epipremnum-aureum-Marble-Queen-Pothos-12x20cm-Igmar-Plant-Basket-Natural-15x12cm.jpg?v=1677492305"
+                            class="card-img-top" alt="Epipremnum aureum 'Marble Queen'">
+                        <div class="card-body">
+                            <h5 class="card-title">Epipremnum aureum 'Marble Queen'</h5>
+                            <p class="card-text">Heart-shaped leaves marbled with creamy-white variegation.</p>
+                            <p class="text-muted">$10 - $20</p>
+                            <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Q&A Section -->
+    <section id="qanda" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Q&A</h2>
+            <div class="card-qa mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">How often should I water my plants?</h5>
+                    <p class="card-text">It depends on the type of plant and its environment. Generally, it's good to
+                        water
+                        when the top inch of soil is dry.</p>
+                </div>
+            </div>
+            <div class="card-qa mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">What's the best lighting for tropical plants?</h5>
+                    <p class="card-text">Tropical plants thrive in bright, indirect sunlight. Avoid placing them in
+                        direct
+                        sunlight as it can scorch their leaves.</p>
+                </div>
+            </div>
+            <!-- Additional Q&A -->
+            <div class="card-qa mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">How can I prevent pests on my plants?</h5>
+                    <p class="card-text">Regularly inspect your plants for signs of pests such as aphids or spider
+                        mites. You
+                        can use natural remedies like neem oil or insecticidal soap to control infestations.</p>
+                </div>
+            </div>
+            <div class="card-qa mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Why are the leaves of my plant turning yellow?</h5>
+                    <p class="card-text">Yellowing leaves can be caused by overwatering, underwatering, insufficient
+                        light, or
+                        nutrient deficiencies. Assess the plant's care routine to identify the cause.</p>
+                </div>
+            </div>
+            <div class="card-qa mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">How do I repot my plant?</h5>
+                    <p class="card-text">Choose a pot that is slightly larger than the current one and has drainage
+                        holes. Gently
+                        remove the plant from its current pot, loosen the roots, place it in the new pot, and fill with
+                        fresh
+                        potting mix.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <span>&copy; 2024 Tropical Plant Store</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
